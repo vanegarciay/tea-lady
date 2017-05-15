@@ -13,7 +13,7 @@ function validarData(){
     var pack = document.getElementById("tipos_te").value;
     var suscribir = document.getElementById("suscribirse").checked;
 
-    if (nombre=="" || apellido=="" || correo=="" || direccion=="" || telefono=="" || pack=="" || suscribir==""){
+    if (nombre=="" || apellido=="" || correo=="" || direccion=="" || telefono=="" || pack=="" || suscribir==false){
         document.getElementById("validaciones").innerHTML = 'Todos los campos deben estar llenos';
         return false;
     } else {

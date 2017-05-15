@@ -1,1 +1,42 @@
 /* Escribe acá tus estilos*/
+html {
+    margin: 0;
+    padding: 0;
+    width: 98%;
+}
+body{
+    background: url(../img/posos-del-te.jpg);
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+section {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1em;
+}
+#validaciones{
+    margin: 0.5em;
+    background: rgba(226, 36, 36, 0.7);
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+    width: 100%;
+}
+header{
+    color: #890505; 
+}
+section#formulario input, section#formulario label, section#formulario select{
+    height: 30px;
+    margin: 0.2em;
+}
+
+section#formulario label{
+    font-weight: bold;
+    min-width: 100px;
+}
+
+form > div{
+    text-align: left;
+}
+
+
